@@ -91,7 +91,7 @@ I want to share the real journey of building something from scratch—while jugg
 
 ## 📝 Sign Up for the Waitlist
 
-If you want to be part of Dia’s early launch rounds, sign up for the waitlist here.
+If you want to be part of Dia’s early launch rounds, sign up for the [waitlist here](https://heydia.app).
 
 ## 💬 Share Your Story
 
@@ -108,10 +108,3 @@ It’s going to be an exciting ride.
 If this intrigued you, hop on—from whatever corner of the planet you’re in.
 
 Don’t miss the next chapter & join the journey.
-
-[Subscribe to updates](#)
-
-
-
-## 
-#
