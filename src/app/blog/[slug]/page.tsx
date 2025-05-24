@@ -3,6 +3,7 @@ import path from 'path';
 import matter from 'gray-matter';
 import html from 'remark-html';
 import Link from 'next/link';
+import gfm from 'remark-gfm'
 
 type Params = {
   params: {
@@ -23,11 +24,11 @@ export default async function PostPage({ params }: Params) {
   const { data, content } = matter(fileContents);
 
   const { remark } = await import('remark');
-  const processedContent = await remark().use(html).process(content);
+  const processedContent = await remark().use(gfm).use(html).process(content);
   const contentHtml = processedContent.toString();
 
   return (
-    <article className="max-w-xl mx-auto p-4">
+    <article className="mx-auto max-w-[900px] px-6 text-lg leading-7 text-gray-800">
       <Link href="/blog" className="text-blue-600 hover:underline block mb-4">
         ← Back to Dia Blog
       </Link>
