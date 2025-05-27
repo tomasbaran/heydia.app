@@ -1,7 +1,7 @@
 ---
-title: "Week 0 – Introducing Dia"
+title: "Week 0 of building Dia"
 date: "2025-06-18"
-excerpt: "I’ve always struggled with time management. This post kicks off the journey of building a tool that actually helps."
+excerpt: "I’ve spent the last few years building apps for others—now I’m building something for myself (and maybe for you too). Dia is my answer to years of struggling with focus, ADHD, and productivity tools that never quite fit. This is Week 0 of the journey: the why, the struggles, and the spark that started it all."
 ---
 
 ## 👋 Let Me Introduce Myself
