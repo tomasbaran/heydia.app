@@ -10,7 +10,7 @@ export default function Navbar() {
 
   return (
     <nav className="flex justify-center gap-8 py-6 text-base font-medium">
-      <Link href="/" className={linkStyle('/')}>Home</Link>
+      <Link href="http://localhost:3000" className={linkStyle('/')}>Home</Link>
       <Link href="/blog" className={linkStyle('/blog')}>Blog</Link>
     </nav>
   );

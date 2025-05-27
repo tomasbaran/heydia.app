@@ -1,6 +1,8 @@
 import { getSortedPostsData } from '@/lib/posts';
 import Link from 'next/link';
 import Navbar from '../Navbar';
+import MailingListSnippet from '../MailingListSnippet'; 
+
 
 export default function BlogPage() {
   const posts = getSortedPostsData();
@@ -30,41 +32,9 @@ export default function BlogPage() {
   fontSize: '0.875rem',
   color: '#999'
 }}>
-  
-  <form
-    action="https://YOUR_MAILERLITE_FORM_URL"
-    method="post"
-    style={{ display: 'flex', flexDirection: 'column', gap: '1rem', maxWidth: '400px', margin: '0 auto' }}
-  >
-    <input
-      type="email"
-      name="email"
-      placeholder="Your email"
-      required
-      style={{
-        padding: '0.75rem 1rem',
-        fontSize: '1rem',
-        borderRadius: '5px',
-        border: '1px solid #ccc'
-      }}
-    />
-    <button
-      type="submit"
-      style={{
-        padding: '0.75rem 1rem',
-        fontSize: '1rem',
-        backgroundColor: '#000',
-        color: '#fff',
-        borderRadius: '5px',
-        border: 'none',
-        cursor: 'pointer'
-      }}
-    >
-      Subscribe to updates
-    </button>
-  </form>
-
-  {/* Add marginTop here */}
+     {/* Render the MailerLite Form */}
+     <center><MailingListSnippet /></center>
+             
   <p style={{ marginTop: '2rem' }}>
     Built for clarity seekers: doers, dreamers, and minimalists.
   </p>

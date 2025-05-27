@@ -4,6 +4,8 @@ import matter from 'gray-matter';
 import html from 'remark-html';
 import Link from 'next/link';
 import gfm from 'remark-gfm';
+import MailingListSnippet from '../../MailingListSnippet'; 
+
 
 type Params = {
   params: {
@@ -48,44 +50,7 @@ export default async function PostPage({ params }: Params) {
           color: '#999',
         }}
       >
-        <form
-          action="https://YOUR_MAILERLITE_FORM_URL"
-          method="post"
-          style={{
-            display: 'flex',
-            flexDirection: 'column',
-            gap: '1rem',
-            maxWidth: '400px',
-            margin: '2rem auto 1rem',
-          }}
-        >
-          <input
-            type="email"
-            name="email"
-            placeholder="Your email"
-            required
-            style={{
-              padding: '0.75rem 1rem',
-              fontSize: '1rem',
-              borderRadius: '5px',
-              border: '1px solid #ccc',
-            }}
-          />
-          <button
-            type="submit"
-            style={{
-              padding: '0.75rem 1rem',
-              fontSize: '1rem',
-              backgroundColor: '#000',
-              color: '#fff',
-              borderRadius: '5px',
-              border: 'none',
-              cursor: 'pointer',
-            }}
-          >
-            Sign up for the waitlist
-          </button>
-        </form>
+        <center><MailingListSnippet /></center>
 
         <p style={{ marginTop: '2rem' }}>
           Built for clarity seekers: doers, dreamers, and minimalists.

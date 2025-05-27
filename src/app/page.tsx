@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Navbar from './Navbar';
-import MailjetEmbed from './MailjetEmbed';
+import WaitlistSnippet from './WaitlistSnippet';
 
 export default function Home() {
   return (
@@ -35,7 +35,7 @@ export default function Home() {
         </p>
 
         {/* Render the MailerLite Form */}
-           <MailjetEmbed />
+           <WaitlistSnippet />
       </main>
 
       {/* Footer */}
