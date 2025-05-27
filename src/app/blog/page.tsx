@@ -36,7 +36,7 @@ export default function BlogPage() {
      <center><MailingListSnippet /></center>
              
   <p style={{ marginTop: '2rem' }}>
-    Built for clarity seekers: doers, dreamers, and minimalists.
+   ♡ Built for clarity seekers: doers, dreamers, and minimalists.
   </p>
 </footer>
     </div>

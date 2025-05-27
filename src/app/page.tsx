@@ -1,6 +1,4 @@
 'use client';
-
-import Link from 'next/link';
 import Navbar from './Navbar';
 import WaitlistSnippet from './WaitlistSnippet';
 
@@ -45,7 +43,7 @@ export default function Home() {
         fontSize: '0.875rem',
         color: '#999'
       }}>
-        Built for clarity seekers: doers, dreamers, and minimalists.
+       ♡ Built for clarity seekers: doers, dreamers, and minimalists.
       </footer>
     </div>
   );
