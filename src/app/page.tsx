@@ -1,5 +1,8 @@
+'use client';
+
 import Link from 'next/link';
 import Navbar from './Navbar';
+import MailjetEmbed from './MailjetEmbed';
 
 export default function Home() {
   return (
@@ -9,8 +12,7 @@ export default function Home() {
       minHeight: '100vh',
       fontFamily: 'system-ui'
     }}>
-      
-       <Navbar />
+      <Navbar />
 
       {/* Main Content */}
       <main style={{
@@ -20,9 +22,9 @@ export default function Home() {
         alignItems: 'center',
         justifyContent: 'center',
         textAlign: 'center',
-        padding: '2rem'
+        padding: '1rem'
       }}>
-        <h1 style={{ fontSize: '3rem', marginBottom: '0.5em' }}>Dia</h1>
+        <h1 style={{ fontSize: '3rem', marginBottom: '0' }}>Dia</h1>
         <p style={{
           fontSize: '1.25rem',
           color: '#555',
@@ -32,43 +34,8 @@ export default function Home() {
           Simple daily planning that fits your brain.
         </p>
 
-        <form
-          action="https://YOUR_MAILERLITE_FORM_URL"
-          method="post"
-          style={{
-            display: 'flex',
-            flexDirection: 'column',
-            gap: '1rem',
-            width: '100%',
-            maxWidth: '400px'
-          }}
-        >
-          <input
-            type="email"
-            name="email"
-            placeholder="Your email"
-            required
-            style={{
-              padding: '0.75rem 1rem',
-              fontSize: '1rem',
-              borderRadius: '5px',
-              border: '1px solid #ccc'
-            }}
-          />
-          <button
-            type="submit"
-            style={{
-              padding: '0.75rem 1rem',
-              fontSize: '1rem',
-              backgroundColor: '#0B6E4F',
-              color: '#fff',
-              borderRadius: '5px',
-              border: 'none'
-            }}
-          >
-            Sign up for the waitlist
-          </button>
-        </form>
+        {/* Render the MailerLite Form */}
+           <MailjetEmbed />
       </main>
 
       {/* Footer */}
