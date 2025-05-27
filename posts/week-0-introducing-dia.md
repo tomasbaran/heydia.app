@@ -56,6 +56,7 @@ Some habits helped—more than any tool:
 
 - Meditation  
 - Breathwork  
+- Going to bed and waking up early
 - Working out  
 - Single-tasking (a.k.a. deep work)  
 - Writing down daily and weekly priorities  
