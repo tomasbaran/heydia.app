@@ -91,7 +91,7 @@ I want to share the real journey of building something from scratch—while jugg
 
 ## 📝 Sign Up for the Waitlist
 
-If you want to be part of Dia’s early launch rounds, sign up for the [waitlist here](http://localhost:3000).
+If you want to be part of Dia’s early launch rounds, sign up for the waitlist [here](/).
 
 ## 💬 Share Your Story
 
