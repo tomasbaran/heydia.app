@@ -8,7 +8,7 @@ excerpt: "I’ve always struggled with time management. This post kicks off the 
 
 ![Tomas Baran, founder of Dia](/post1-dia-tomas-founder.png)
 
-I’ve been quiet over the past few years, honing my skills as a software developer—especially on the front end with Flutter.  
+My name is [Tomas Baran](https://tomasbaran.medium.com). I’ve been quiet over the past few years, honing my skills as a software developer—especially on the front end with Flutter.  
 For the past five years, I’ve made a living building apps for others. It’s been fun, enriching, and full of learning.  
 But deep down, I’ve always missed what I enjoyed the most: working on my own venture.
 
