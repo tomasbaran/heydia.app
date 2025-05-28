@@ -33,8 +33,8 @@ export default function MailingListSnippet() {
         marginHeight={0}
         marginWidth={0}
         src="https://sri0h.mjt.lu/wgt/sri0h/0wym/form?c=67a2157f"
-        width="800"
-        style={{ height: '305px', border: 'none' }}
+        style={{ height: '305px', border: 'none' ,width: '100%',
+    maxWidth: '800px',}}
       />
     </div>
   );
