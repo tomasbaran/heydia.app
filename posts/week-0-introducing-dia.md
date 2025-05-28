@@ -22,8 +22,6 @@ I think I finally found it.
 
 ## 🧠 The Problem
 
-It’s personal.
-
 I suck at time management and focus. I procrastinate, get distracted, and drift away from what matters.  
 I’ve long suspected ADHD, and after learning more about it recently, everything suddenly makes sense.  
 It’s been affecting me every day for as long as I can remember.
