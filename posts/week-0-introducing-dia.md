@@ -1,5 +1,5 @@
 ---
-title: "Week 0 of building Dia"
+title: "Week 0 of building Dia: The Struggle That Sparked Dia"
 date: "2025-06-18"
 excerpt: "I’ve spent the last few years building apps for others—now I’m building something for myself (and maybe for you too). Dia is my answer to years of struggling with focus, ADHD, and productivity tools that never quite fit. This is Week 0 of the journey: the why, the struggles, and the spark that started it all."
 ---
@@ -70,7 +70,7 @@ I want to build that tool, not just for myself, but for anyone who feels the sam
 Because at the end of the day, what matters is getting the right little things done consistently.  
 That takes structure, discipline, good sleep, courage… and the right companion.
 
-## 🚀 Introducing Dia
+## 🚀 The Solution: Introducing Dia
 
 ![Concept for the Dia app](/post2-concept-sketch.jpg)
 
