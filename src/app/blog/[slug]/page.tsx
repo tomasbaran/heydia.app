@@ -2,10 +2,11 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { remark } from 'remark';
+import gfm from 'remark-gfm';
 import Link from 'next/link';
 import html from 'remark-html';
 import MailingListSnippet from '@/app/MailingListSnippet'; // Adjust path if needed
-
+  
 interface BlogPageParams {
   slug: string;
 }
@@ -22,8 +23,13 @@ export default async function Page({ params }: { params: Promise<BlogPageParams>
   const filePath = path.join(process.cwd(), 'posts', `${slug}.md`);
   const fileContents = fs.readFileSync(filePath, 'utf8');
   const { data, content } = matter(fileContents);
-  const processedContent = await remark().use(html).process(content);
+  const processedContent = await remark()
+  .use(gfm) // ← add this
+  .use(html)
+  .process(content);
   const contentHtml = processedContent.toString();
+
+  
 
   return (
     <>
@@ -54,3 +60,4 @@ export default async function Page({ params }: { params: Promise<BlogPageParams>
     </>
   );
 }
+
