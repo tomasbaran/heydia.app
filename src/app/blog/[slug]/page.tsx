@@ -2,14 +2,14 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { remark } from 'remark';
+import Link from 'next/link';
 import html from 'remark-html';
+import MailingListSnippet from '@/app/MailingListSnippet'; // Adjust path if needed
 
-// Define the expected params shape
 interface BlogPageParams {
   slug: string;
 }
 
-// Generate static parameters for dynamic routes
 export async function generateStaticParams() {
   const files = fs.readdirSync('posts');
   return files.map((file) => ({
@@ -17,9 +17,8 @@ export async function generateStaticParams() {
   }));
 }
 
-// Page component with manual props typing
 export default async function Page({ params }: { params: Promise<BlogPageParams> }) {
-  const { slug } = await params; // Unwrap the Promise to get the slug
+  const { slug } = await params;
   const filePath = path.join(process.cwd(), 'posts', `${slug}.md`);
   const fileContents = fs.readFileSync(filePath, 'utf8');
   const { data, content } = matter(fileContents);
@@ -27,10 +26,31 @@ export default async function Page({ params }: { params: Promise<BlogPageParams>
   const contentHtml = processedContent.toString();
 
   return (
-    <article className="prose max-w-3xl mx-auto p-6">
-      <h1 className="text-3xl font-bold mb-2">{data.title}</h1>
-      <p className="text-gray-500 text-sm mb-6">{data.date}</p>
-      <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
-    </article>
+    <>
+      <article className="prose max-w-3xl mx-auto p-6">
+          <Link href="/blog" className="text-blue-600 hover:underline block mb-4">
+          ← Back to Dia Blog
+        </Link>
+        <h1 className="text-3xl font-bold mb-2">{data.title}</h1>
+        <p className="text-gray-500 text-sm mb-6">{data.date}</p>
+        <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
+      </article>
+
+      {/* Footer with sign-up form */}
+      <footer
+        style={{
+          padding: '2rem 1rem',
+          textAlign: 'center',
+          fontSize: '0.875rem',
+          color: '#999',
+        }}
+      >
+        <center><MailingListSnippet /></center>
+
+        <p style={{ marginTop: '2rem' }}>
+          ♡ Built for clarity seekers: doers, dreamers, and minimalists.
+        </p>
+      </footer>
+    </>
   );
 }
