@@ -67,7 +67,7 @@ Something simple enough to use daily.
 Something that helps prioritize, plan, and track progress—without friction.
 
 I want to build that tool, not just for myself, but for anyone who feels the same.  
-Because at the end of the day, what matters is getting the right little things done consistently.  
+Because at the end of the day, what matters is getting the right little things done consistently.
 That takes structure, discipline, good sleep, courage… and the right companion.
 
 ## 🚀 The Solution: Introducing Dia
@@ -80,7 +80,7 @@ Plan. Prioritize. Track.
 Simple structure. Easy to follow.  
 Because if you don’t use it daily, it can’t help.
 
-## 📆 What’s Next?
+## ⏭️ What’s Next?
 
 I want to document everything:  
 The ideas, the design, the development, the struggles, the wins, the stats, the user growth (or not), the finances—everything.
@@ -100,6 +100,18 @@ Have you struggled with similar things?
 What’s helped—and what hasn’t?
 
 Email me at [tomas@heydia.app](mailto:tomas@heydia.app).
+
+## 🎯 Weekly objectives
+
+### Previous week
+
+- ~~Set up the basic website (Next.js + Markdown + Firebase hosting) with blog and waitlist~~ 
+
+### This week
+
+- Finalize core concept, UX and functionality for Dia v1
+- Identify 5–10 people in my network who would actually use this
+
 
 ## 🌞 Until Next Week
 
