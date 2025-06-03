@@ -1,12 +1,12 @@
 ---
 title: "Week 0 of building Dia: The Struggle That Sparked Dia"
-date: "2025-06-18"
+date: "2025-06-23"
 excerpt: "I’ve spent the last few years building apps for others—now I’m building something for myself (and maybe for you too). Dia is my answer to years of struggling with focus, ADHD, and productivity tools that never quite fit. This is Week 0 of the journey: the why, the struggles, and the spark that started it all."
 ---
 
 ## 👋 Let Me Introduce Myself
 
-![Tomas Baran, founder of Dia](/post1-dia-tomas-founder.png)
+![Tomas Baran, founder of Dia](/week0/dia-founder-tomas-baran.png)
 
 My name is [Tomas Baran](https://tomasbaran.medium.com). I’ve been quiet over the past few years, honing my skills as a software developer—especially on the front end with Flutter.  
 For the past five years, I’ve made a living building apps for others. It’s been fun, enriching, and full of learning.  
@@ -72,7 +72,7 @@ That takes structure, discipline, good sleep, courage… and the right companion
 
 ## 🚀 The Solution: Introducing Dia
 
-![Concept for the Dia app](/post2-concept-sketch.jpg)
+![Concept for the Dia app](/week0/dia-concept-sketch.jpg)
 
 **Dia** is a tool to GSD (~~get shit done~~)—daily.  
 Plan. Prioritize. Track.
@@ -101,7 +101,7 @@ What’s helped—and what hasn’t?
 
 Email me at [tomas@heydia.app](mailto:tomas@heydia.app).
 
-## 🎯 Weekly objectives
+## 🎯 Dia Weekly objectives
 
 ### Previous week
 
