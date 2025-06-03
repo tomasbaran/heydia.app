@@ -29,7 +29,7 @@ export default function Home() {
           maxWidth: '500px',
           marginBottom: '2rem'
         }}>
-          Simple daily planning that fits your brain.
+          Simple daily planner that fits my brain.
         </p>
 
         {/* Render the MailerLite Form */}
