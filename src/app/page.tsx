@@ -22,7 +22,13 @@ export default function Home() {
         textAlign: 'center',
         padding: '1rem'
       }}>
-        <h1 style={{ fontSize: '3rem', marginBottom: '0' }}>Dia</h1>
+        
+  <img src="dia-logo.png" alt="Dia 1.0 logo" style={{
+          maxWidth: '200px',
+          maxHeight: '200px',
+          marginBottom: '2rem'
+        }} />
+
         <p style={{
           fontSize: '1.25rem',
           color: '#555',
