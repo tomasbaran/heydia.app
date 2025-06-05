@@ -101,7 +101,7 @@ What’s helped—and what hasn’t?
 
 Email me at [tomas@heydia.app](mailto:tomas@heydia.app).
 
-## 🎯 Dia Weekly objectives
+## 📌 Dia Weekly objectives
 
 ### Previous week
 

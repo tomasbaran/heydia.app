@@ -85,7 +85,7 @@ Dia uses a traffic light model to keep priorities clear:
 
 No confusing tags or nested categories—just intuitive levels of importance.
 
-## 🎯 Dia Weekly objectives
+## 📌 Dia Weekly objectives
 
 ### Previous week
 
