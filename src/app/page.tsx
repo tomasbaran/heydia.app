@@ -22,12 +22,18 @@ export default function Home() {
         textAlign: 'center',
         padding: '1rem'
       }}>
+
+        <img
+  src="/dia-logo.png"
+  alt="Dia logo"
+  style={{
+    maxWidth: '200px',
+    // height: 'auto',
+    // marginBottom: '2rem',
+  }}
+/>
         
-  <img src="dia-logo.png" alt="Dia 1.0 logo" style={{
-          maxWidth: '200px',
-          maxHeight: '200px',
-          marginBottom: '2rem'
-        }} />
+  
 
         <p style={{
           fontSize: '1.25rem',
