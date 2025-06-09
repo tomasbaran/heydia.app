@@ -43,7 +43,7 @@ Version 1.0 will be built around [three simple ideas](/blog/week-1-rethinking-pl
 
 ---
 
-## ❌ What Dia 1.0 *Won’t* Include
+## ❌ What Dia 1.0 Won’t Include
 
 It won’t include:
 
