@@ -1,6 +1,6 @@
 ---
-title: "Week 1 of building Dia: Rethinking how we plan our days"
-date: "2025-06-30"
+title: "[week 1] Dia: Rethinking how I plan my days"
+date: "2025-07-14"
 excerpt:  "Most planning tools are made for managers or makers—but what if you're both? Here's how Dia was born to solve that in-between problem."
 ---
 

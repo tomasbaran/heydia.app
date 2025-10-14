@@ -1,6 +1,6 @@
 ---
-title: "Week 0 of building Dia: The Struggle That Sparked Dia"
-date: "2025-06-23"
+title: "[week 0] Dia: Daily planning that fits my brain"
+date: "2025-07-07"
 excerpt: "I’ve spent the last few years building apps for others—now I’m building something for myself (and maybe for you too). Dia is my answer to years of struggling with focus, ADHD, and productivity tools that never quite fit. This is Week 0 of the journey: the why, the struggles, and the spark that started it all."
 ---
 
@@ -85,7 +85,7 @@ Because if you don’t use it daily, it can’t help.
 I want to document everything:  
 The ideas, the design, the development, the struggles, the wins, the stats, the user growth (or not), the finances—everything.
 
-I’ll try to post weekly.  
+Updates will come weekly, biweekly, or monthly—whatever fits the pace.
 I want to share the real journey of building something from scratch—while juggling family, work, and life.
 
 ## 📝 Sign Up for the Waitlist

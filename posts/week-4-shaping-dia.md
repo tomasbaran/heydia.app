@@ -1,6 +1,6 @@
 ---
-title: "Week 2 of building Dia: Defining the MVP"
-date: "2025-07-07"
+title: "[week 4] Dia: Defining the MVP"
+date: "2025-08-5"
 excerpt: "What will Dia 1.0 include? What will it skip? Here’s how I’m shaping the first version—from platforms and features to the future community."
 ---
 
@@ -14,10 +14,10 @@ So, what will? And what won’t?
 ## 🖥️ Platform
 
 The first decision: **which platform will Dia support from day one?**  
-Answer: **Desktop, as a web app** (built in Flutter).
+Answer: **Mobile and desktop as a responsive web app** (built in Flutter).
 
-- **Why desktop?** If you’re serious about planning, you probably won’t do it on your phone.
-- **Why web?** So you can still check your day on the go.
+
+- **Why a responsive web app?** So you can check your day on your phone as well as on your desktop.
 - **Why Flutter?** It’s modern, fast, multiplatform (web, desktop, iOS, Android…), and the one I fell in love with.
 
 ---
@@ -38,7 +38,7 @@ Dia 1.0 will deliver on its [core promise](/blog/week-1-rethinking-planning):
 Version 1.0 will be built around [three simple ideas](/blog/week-1-rethinking-planning):
 
 1. **Effectivity** — Tasks must be assigned to a day.
-2. **Simple Structure** — Weekly view only.
+2. **Simple Structure** — Weekly and daily view only.
 3. **Flexibility** — Drag tasks between days.
 
 ---
@@ -88,12 +88,11 @@ There will be future closed rounds for new users—each with a slightly higher p
 ### Previous week
 
 - ~~Finalized design, functionality, and platform for Dia 1.0~~
-- ~~Identified another 5–10 people in my network who would actually use this~~
+- ~~Talked to productivity freaks~~
 
 ### This week
 
 - Finalize dev plan for the week (will cover in detail in the next blog post)
-- Identify another 5–10 people in my network who would actually use Dia 1.0
 
 ## 🙏🏻 Thank You
 
