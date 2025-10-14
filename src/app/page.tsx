@@ -45,7 +45,7 @@ export default function Home() {
         </p>
 
         {/* Render the MailerLite Form */}
-           <WaitlistSnippet />
+           {/* <WaitlistSnippet /> */}
       </main>
 
       {/* Footer */}
