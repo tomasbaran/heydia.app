@@ -1,6 +1,6 @@
 ---
-title: "[week 3] Dia: Dev Plan in the Wild"
-date: "2025-07-28"
+title: "[week 5] Dia: Dev Plan in the Wild"
+date: "2025-10-14"
 excerpt: "Time to build. Here's how I’m tackling Dia’s first dev sprint—and how I’m using Dia’s own philosophy to plan it."
 ---
 
