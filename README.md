@@ -20,5 +20,5 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 ## Update && Deploy
 ```
-npm run build && firebase deploy - m ''
+npm run build && firebase deploy -m ''
 ```
