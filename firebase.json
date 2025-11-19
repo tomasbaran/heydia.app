@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "target": "default",
     "public": "out",
     "cleanUrls": true,
     "rewrites": [
@@ -8,6 +9,15 @@
         "destination": "/index.html"
       }
     ],
-    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "headers": [ 
+      {
+        "source": "/version.json",
+        "headers": [
+          { "key": "Access-Control-Allow-Origin", "value": "*" },
+          { "key": "Access-Control-Allow-Methods", "value": "GET, OPTIONS" }
+        ]
+      }
+    ]
   }
 }

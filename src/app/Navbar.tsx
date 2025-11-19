@@ -12,6 +12,7 @@ export default function Navbar() {
     <nav className="flex justify-center gap-8 py-6 text-base font-medium">
       <Link href="/" className={linkStyle('/')}>Home</Link>
       <Link href="/blog" className={linkStyle('/blog')}>Blog</Link>
+      <Link href="https://app.heydia.app" target="_blank" className={linkStyle('/app')}>[ Dia App ↗ ]</Link>
     </nav>
   );
 }

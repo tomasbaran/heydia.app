@@ -1,5 +1,18 @@
 {
   "projects": {
-    "default": "heydia-prod"
+    "default": "heydia-dev",
+    "heydia-live": "heydia-live"
+  },
+  "targets": {
+    "heydia-dev": {
+      "hosting": {
+        "default": ["heydia-dev"]
+      }
+    },
+    "heydia-live": {
+      "hosting": {
+        "default": ["heydia-live"]
+      }
+    }
   }
 }
